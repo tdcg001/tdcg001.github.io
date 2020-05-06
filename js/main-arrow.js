@@ -9,7 +9,7 @@ $(function() {
         if($(window).scrollTop() == 0) {
             reachEnd = false;
             rotate(360);
-        } else if($(window).scrollTop() + 150 >= $("#middle").offset().top) {
+        } else if($(window).scrollTop() + 300 >= $("#middle").offset().top) {
             reachEnd = true;
             rotate(180);
         } else {
