@@ -142,5 +142,6 @@ $(function() {
 
     $("#apply-form").hide();
     $("#apply-form :input").val("");
+    gtag('event', 'conversion', {'send_to': 'AW-849243017/17wOCNCZp88BEInX-ZQD'});
   });
 });
